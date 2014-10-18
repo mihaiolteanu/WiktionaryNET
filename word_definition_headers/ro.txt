@@ -1,0 +1,9 @@
+﻿{{substantiv-ron
+{{adjectiv-ron
+{{pronume-ron
+{{numeral-ron
+{{verb-ron
+{{adverb-ron
+{{prepoziţie-ron
+{{conjuncţie-ron
+{{interjecţie-ron
