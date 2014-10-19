@@ -62,7 +62,7 @@ namespace WiktionaryNET
         static string ClearMarkup(string input)
         {
             return input
-                .Replace("[ ", "")
+                .Replace("[", "")
                 .Replace("]", "")
                 .Replace("{", "")
                 .Replace("}", "")
