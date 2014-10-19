@@ -38,9 +38,24 @@ namespace WiktionaryNET
             return definitionParts;
         }
 
+        /// <summary>
+        /// Get the file path holding the word definition headers for a specific language
+        /// </summary>
+        /// <param name="language"></param>
+        /// <returns></returns>
         static string DefinitionsPath(string language)
         {
-            return "../../../word_definition_headers/" + language + ".txt";
+#if DEBUG
+            Console.WriteLine("Debug Version");
+            return "../../../WiktionaryNET/word_definition_headers/" + language + ".txt";
+            
+#else
+            // Return the path to NuGet installed packages.
+            var packageName = typeof(WordDefinitionHeader).Assembly.GetName().Name.ToString();
+            var packageLocation = Directory.GetDirectories("../../../packages/", packageName + "*")[0];
+
+            return packageLocation + "/content/word_definition_headers/" + language + ".txt";
+#endif
         }
     }
 }
