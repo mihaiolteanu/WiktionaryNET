@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>$id$</id>
+    <version>$version$</version>
+    <title>$title$</title>
+    <authors>$author$</authors>
+    <owners>$author$</owners>
+    <licenseUrl>https://github.com/mihaiolteanu/WiktionaryNET/blob/master/LICENSE</licenseUrl>
+    <projectUrl>https://github.com/mihaiolteanu/WiktionaryNET</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>$description$</description>
+    <releaseNotes>Initial development version.</releaseNotes>
+    <copyright>Copyright 2014</copyright>
+    <tags>C# .NET VB Wiktionary Dictionary</tags>
+  </metadata>
+  <files>
+    <file src="word_definition_headers\*.txt" target="content\word_definition_headers" />
+  </files>
+</package>
