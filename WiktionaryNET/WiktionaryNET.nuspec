@@ -16,5 +16,6 @@
   </metadata>
   <files>
     <file src="word_definition_headers\*.txt" target="content\word_definition_headers" />
+    <file src="app.config.transform" target="content\app.config.transform" />
   </files>
 </package>
