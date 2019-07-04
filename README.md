@@ -1,4 +1,4 @@
-WiktionaryNET
+Deprecated
 =============
 
 Wiktionary library for .NET.
